@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 .App-logo {
@@ -19,4 +25,36 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th{
+  padding: 20px;
+  border: 1px solid;
+}
+
+.form {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+}
+
+.tableView {
+  padding: 20px;
+  width: 100%;
+}
+
+.inputWraper {
+  width: 50% !important;
+  padding: 10px;
+}
+
+.buttonSubmit {
+  padding: 10px;
 }
